@@ -1,0 +1,817 @@
+[
+  {
+    "n": "01",
+    "sec": "Core",
+    "slug": "home",
+    "label": "Home — Landing",
+    "url": "https://vetclaims.ai/",
+    "ok": true,
+    "meta": {
+      "title": "VA Disability Claims Help | Flat-Fee Prep | VetClaims.ai",
+      "metaDesc": "File-ready VA claim packages in 14 days. Evidence-backed nexus letters, 4.87★ across 207 reviews, 43K+ veterans guided. See if you qualify today.",
+      "h1": "Do you want the VA rating you deserve?",
+      "h2s": [
+        "The Dark Truth About VA Claims (No One Told You)",
+        "Real Veterans, Real Results",
+        "Frequently asked questions",
+        "Ready to Get the Rating You Deserve?"
+      ],
+      "buttons": [
+        "Client Login",
+        "See if I Qualify",
+        "Client Login",
+        "See if I Qualify",
+        "Light Mode",
+        "SEE IF I QUALIFY",
+        "Learn more about us",
+        "See if I Qualify",
+        "VA CLAIM What documents do I need to start my VA claim? ▴",
+        "VA CLAIM How long does the VA claims process usually take? ▾",
+        "C&P PROCESS What's the difference between a Fully Developed Claim and a Standard Claim? ▾",
+        "C&P PROCESS Can I add more evidence after submitting my claim? ▾",
+        "APPEAL What happens if my claim gets denied? ▾",
+        "C&P PROCESS How should I prepare for my C&P exam? ▾",
+        "View All FAQs",
+        "Show Me How",
+        "See if I Qualify"
+      ],
+      "inputs": [],
+      "scrollH": 3947
+    },
+    "cardPx": {
+      "w": 2880,
+      "h": 1800
+    },
+    "fullPx": {
+      "w": 2880,
+      "h": 7894
+    },
+    "finalUrl": "https://vetclaims.ai/"
+  },
+  {
+    "n": "02",
+    "sec": "Core",
+    "slug": "pricing",
+    "label": "Pricing — $1,250 Complete Care",
+    "url": "https://vetclaims.ai/pricing/",
+    "ok": true,
+    "meta": {
+      "title": "VA Claims Pricing | $1,250 Flat Fee | VetClaims.ai",
+      "metaDesc": "Transparent flat-fee VA claim prep — no percentage of your backpay. Complete evidence package, nexus letters, and file-ready documents. Get started now.",
+      "h1": "Pricing",
+      "h2s": [
+        "Hate unknown pricing?",
+        "Get the Benefits You Deserve.",
+        "Ready to Get the Rating You Deserve?"
+      ],
+      "buttons": [
+        "Client Login",
+        "See if I Qualify",
+        "Client Login",
+        "See if I Qualify",
+        "Light Mode",
+        "See if I Qualify",
+        "(737) 344-4399"
+      ],
+      "inputs": [],
+      "scrollH": 2079
+    },
+    "cardPx": {
+      "w": 2880,
+      "h": 1800
+    },
+    "fullPx": {
+      "w": 2880,
+      "h": 4158
+    },
+    "finalUrl": "https://vetclaims.ai/pricing/"
+  },
+  {
+    "n": "10",
+    "sec": "VA Benefits",
+    "slug": "va-benefits-hub",
+    "label": "VA Benefits — hub",
+    "url": "https://vetclaims.ai/va-benefits/",
+    "ok": true,
+    "meta": {
+      "title": "How the VA Benefits System Actually Works & How to Use It",
+      "metaDesc": "Two veterans, same condition, different ratings. There's a reason, and once you see the logic, the VA benefits system becomes predictable. Here's how it works.",
+      "h1": "VA Benefits: A Complete Guide for Veterans",
+      "h2s": [
+        "How the VA System Works",
+        "Why Benefits Can Feel Inconsistent",
+        "Increasing Your VA Disability Rating",
+        "VA Disability Pay: How Compensation Works",
+        "Filing and Winning VA Claims",
+        "C&P Exams: What Gets Written Matters",
+        "VA Appeals: When and How to Fight a Denial",
+        "PACT Act and Toxic Exposure Claims"
+      ],
+      "buttons": [
+        "Client Login",
+        "See if I Qualify",
+        "Client Login",
+        "See if I Qualify",
+        "Light Mode",
+        "See if I Qualify",
+        "(737) 344-4399"
+      ],
+      "inputs": [],
+      "scrollH": 9765
+    },
+    "cardPx": {
+      "w": 2880,
+      "h": 1800
+    },
+    "fullPx": {
+      "w": 2880,
+      "h": 19530
+    },
+    "finalUrl": "https://vetclaims.ai/va-benefits/"
+  },
+  {
+    "n": "11",
+    "sec": "VA Benefits",
+    "slug": "rating-increase",
+    "label": "Rating Increase",
+    "url": "https://vetclaims.ai/va-benefits/rating-increase/",
+    "ok": true,
+    "meta": {
+      "title": "Increase VA Disability Rating | What Veterans Need to Know",
+      "metaDesc": "Learn when and how to increase VA disability rating, what evidence the VA considers, available claim paths, and risks to understand before filing.",
+      "h1": "How to Increase Your VA Disability Rating",
+      "h2s": [
+        "When to request a VA disability rating increase",
+        "Signs your condition may warrant an increase",
+        "Evidence needed to increase a rating",
+        "The step-by-step filing process for rating increases",
+        "Reduction risk and what actually triggers it",
+        "Know where you stand before you file again",
+        "Understand your options before you file",
+        "How to Increase VA Disability Rating: FAQs"
+      ],
+      "buttons": [
+        "Client Login",
+        "See if I Qualify",
+        "Client Login",
+        "See if I Qualify",
+        "Light Mode",
+        "Book a strategy call",
+        "See if I Qualify",
+        "(737) 344-4399"
+      ],
+      "inputs": [],
+      "scrollH": 6877
+    },
+    "cardPx": {
+      "w": 2880,
+      "h": 1800
+    },
+    "fullPx": {
+      "w": 2880,
+      "h": 13754
+    },
+    "finalUrl": "https://vetclaims.ai/va-benefits/rating-increase/"
+  },
+  {
+    "n": "12",
+    "sec": "VA Benefits",
+    "slug": "disability-pay",
+    "label": "VA Disability Pay",
+    "url": "https://vetclaims.ai/va-benefits/disability-pay/",
+    "ok": true,
+    "meta": {
+      "title": "VA Disability Compensation & Payments Explained",
+      "metaDesc": "VA disability compensation explained. Learn how monthly pay is calculated, when payments arrive, how back pay works, and where veterans are often underpaid.",
+      "h1": "VA Disability Compensation & Payments Explained",
+      "h2s": [
+        "What VA disability compensation really pays for",
+        "Who qualifies for VA disability compensation",
+        "How the VA decides how much you get paid",
+        "2026 VA disability payment rates",
+        "Rates with dependents and additional pay",
+        "Extra pay most veterans miss",
+        "Lump sum back pay vs monthly payments",
+        "When VA disability payments are made"
+      ],
+      "buttons": [
+        "Client Login",
+        "See if I Qualify",
+        "Client Login",
+        "See if I Qualify",
+        "Light Mode",
+        "Book a strategy call",
+        "See if I Qualify",
+        "(737) 344-4399"
+      ],
+      "inputs": [],
+      "scrollH": 7769
+    },
+    "cardPx": {
+      "w": 2880,
+      "h": 1800
+    },
+    "fullPx": {
+      "w": 2880,
+      "h": 15538
+    },
+    "finalUrl": "https://vetclaims.ai/va-benefits/disability-pay/"
+  },
+  {
+    "n": "13",
+    "sec": "VA Benefits",
+    "slug": "appeals",
+    "label": "Appeals",
+    "url": "https://vetclaims.ai/va-benefits/appeals/",
+    "ok": true,
+    "meta": {
+      "title": "VA Appeals: What are your options after a Denial?",
+      "metaDesc": "Denied or rated too low? Understand your VA appeal options — Supplemental Claim, Higher Level Review, or Board Appeal — and which path fits your case.",
+      "h1": "VA Appeals: What to Do After a Denial or Low Rating",
+      "h2s": [
+        "How VA appeals work, in plain language",
+        "First, figure out what the VA got wrong",
+        "Your three VA appeal options",
+        "If you go to the Board, you’ll pick a docket",
+        "What an appeal can and can’t do for you",
+        "How to appeal a VA disability decision",
+        "What to expect from VA appeal timelines",
+        "What happens if the Board denies you"
+      ],
+      "buttons": [
+        "Client Login",
+        "See if I Qualify",
+        "Client Login",
+        "See if I Qualify",
+        "Light Mode",
+        "Book a strategy call",
+        "Book a strategy call",
+        "See if I Qualify",
+        "(737) 344-4399"
+      ],
+      "inputs": [],
+      "scrollH": 7921
+    },
+    "cardPx": {
+      "w": 2880,
+      "h": 1800
+    },
+    "fullPx": {
+      "w": 2880,
+      "h": 15842
+    },
+    "finalUrl": "https://vetclaims.ai/va-benefits/appeals/"
+  },
+  {
+    "n": "14",
+    "sec": "VA Benefits",
+    "slug": "cp-exams",
+    "label": "C&P Exams",
+    "url": "https://vetclaims.ai/va-benefits/va-cp-exam/",
+    "ok": true,
+    "meta": {
+      "title": "VA C&P Exam Guide: What Happens & How to Prepare",
+      "metaDesc": "A VA C&P exam can make or break your claim. Learn why what actually happens and how to avoid mistakes that cost veterans benefits.",
+      "h1": "VA C&P Exam: What is it, What to Expect & How to Prepare",
+      "h2s": [
+        "How a VA C&P exam really works",
+        "What a VA C&P exam is, and what it isn’t",
+        "Why the VA schedules a C&P exam",
+        "What actually happens during a VA C&P exam",
+        "How the VA uses your C&P exam results",
+        "How to prepare for a VA C&P exam",
+        "What does “passing” a VA C&P exam means",
+        "Common C&P exam mistakes that hurt claims"
+      ],
+      "buttons": [
+        "Client Login",
+        "See if I Qualify",
+        "Client Login",
+        "See if I Qualify",
+        "Light Mode",
+        "Book a strategy call",
+        "See if I Qualify",
+        "(737) 344-4399"
+      ],
+      "inputs": [],
+      "scrollH": 9024
+    },
+    "cardPx": {
+      "w": 2880,
+      "h": 1800
+    },
+    "fullPx": {
+      "w": 2880,
+      "h": 18048
+    },
+    "finalUrl": "https://vetclaims.ai/va-benefits/va-cp-exam/"
+  },
+  {
+    "n": "15",
+    "sec": "VA Benefits",
+    "slug": "pact-act",
+    "label": "PACT Act & Toxic Exposure",
+    "url": "https://vetclaims.ai/va-benefits/va-pact-act/",
+    "ok": true,
+    "meta": {
+      "title": "VA PACT Act Guide: Toxic Exposure Claims & Eligibility 2026",
+      "metaDesc": "Learn how the PACT Act expands VA benefits for veterans exposed to burn pits, Agent Orange, and other toxins. Eligibility, presumptive conditions, and how to file.",
+      "h1": "PACT Act & Toxic Exposure: How the VA Actually Decides These Claims",
+      "h2s": [
+        "The PACT Act in plain language",
+        "What the PACT Act actually did",
+        "How the PACT Act changed the math",
+        "Who the PACT Act applies to",
+        "Presumptive conditions under the PACT Act",
+        "Denied before the PACT Act? You may be able to refile",
+        "How the PACT Act fits into a VA disability claim",
+        "C&P exams and PACT Act claims"
+      ],
+      "buttons": [
+        "Client Login",
+        "See if I Qualify",
+        "Client Login",
+        "See if I Qualify",
+        "Light Mode",
+        "Book a strategy call",
+        "See if I Qualify",
+        "(737) 344-4399"
+      ],
+      "inputs": [],
+      "scrollH": 7887
+    },
+    "cardPx": {
+      "w": 2880,
+      "h": 1800
+    },
+    "fullPx": {
+      "w": 2880,
+      "h": 15774
+    },
+    "finalUrl": "https://vetclaims.ai/va-benefits/va-pact-act/"
+  },
+  {
+    "n": "20",
+    "sec": "Conditions",
+    "slug": "conditions",
+    "label": "Conditions — hub",
+    "url": "https://vetclaims.ai/conditions/",
+    "ok": true,
+    "meta": {
+      "title": "VA Disability Ratings by Condition: Rated Too Low?",
+      "metaDesc": "VA disability ratings by condition are based on functional impact. See what claims gets approved or denied & the exact gaps most vets miss across 30+ conditions.",
+      "h1": "VA Disability Ratings by Condition",
+      "h2s": [
+        "How the VA really assigns ratings",
+        "Why ratings don’t go higher",
+        "What actually decides the outcome",
+        "Three questions worth asking first",
+        "Why your ratings don’t add up",
+        "Secondary conditions",
+        "FAQs About VA Disability Ratings by Condition",
+        "Ready to Get the Rating You Deserve?"
+      ],
+      "buttons": [
+        "Client Login",
+        "See if I Qualify",
+        "Client Login",
+        "See if I Qualify",
+        "Light Mode",
+        "All",
+        "Mental Health",
+        "Musculoskeletal",
+        "Neurological",
+        "Digestive",
+        "Hearing & Vision",
+        "Respiratory",
+        "Cardiovascular",
+        "Skin"
+      ],
+      "inputs": [
+        {
+          "t": "INPUT",
+          "type": "text",
+          "name": "",
+          "ph": "Search your condition (PTSD, knee, sleep apnea...)",
+          "aria": ""
+        }
+      ],
+      "scrollH": 10123
+    },
+    "cardPx": {
+      "w": 2880,
+      "h": 1800
+    },
+    "fullPx": {
+      "w": 2880,
+      "h": 20246
+    },
+    "finalUrl": "https://vetclaims.ai/conditions/"
+  },
+  {
+    "n": "30",
+    "sec": "Company",
+    "slug": "about",
+    "label": "About",
+    "url": "https://vetclaims.ai/about-vetclaims-ai/",
+    "ok": true,
+    "meta": {
+      "title": "About VetClaims.ai | Veteran-Owned VA Claims Team",
+      "metaDesc": "Veteran-led, AI-powered VA disability claims prep. We handle 99% of the work with evidence-backed nexus letters and VA case law. Meet our team.",
+      "h1": "About – Vetclaims.AI",
+      "h2s": [
+        "Our Story",
+        "How We Do It",
+        "Our Four Pillars",
+        "ANTI-SHARK. PRO-VETERAN",
+        "Ready to Get the Rating You Deserve?"
+      ],
+      "buttons": [
+        "Client Login",
+        "See if I Qualify",
+        "Client Login",
+        "See if I Qualify",
+        "Light Mode",
+        "See if I Qualify",
+        "(737) 344-4399"
+      ],
+      "inputs": [],
+      "scrollH": 3569
+    },
+    "cardPx": {
+      "w": 2880,
+      "h": 1800
+    },
+    "fullPx": {
+      "w": 2880,
+      "h": 7138
+    },
+    "finalUrl": "https://vetclaims.ai/about-vetclaims-ai/"
+  },
+  {
+    "n": "31",
+    "sec": "Company",
+    "slug": "founder-story",
+    "label": "Founder Story",
+    "url": "https://vetclaims.ai/founder-story/",
+    "ok": true,
+    "meta": {
+      "title": "Founder Story | Lukas Simianer, Founder of VetClaims.ai",
+      "metaDesc": "Meet Lukas Simianer, Purple Heart veteran and founder of VetClaims.ai. Learn the story behind our mission to fix the VA claims process.",
+      "h1": "Founder Story",
+      "h2s": [
+        "The Founder & CEO, Lukas Simianer",
+        "From Poverty to Service",
+        "The Hard Part No One Talks About",
+        "Building Systems That Actually Work",
+        "Service Didn’t Stop With One Company",
+        "Why VetClaims.ai Exists",
+        "The Same Mission, Applied Differently",
+        "Ready to Get the Rating You Deserve?"
+      ],
+      "buttons": [
+        "Client Login",
+        "See if I Qualify",
+        "Client Login",
+        "See if I Qualify",
+        "Light Mode",
+        "See if I Qualify",
+        "(737) 344-4399"
+      ],
+      "inputs": [],
+      "scrollH": 6418
+    },
+    "cardPx": {
+      "w": 2880,
+      "h": 1800
+    },
+    "fullPx": {
+      "w": 2880,
+      "h": 12836
+    },
+    "finalUrl": "https://vetclaims.ai/founder-story/"
+  },
+  {
+    "n": "32",
+    "sec": "Company",
+    "slug": "contact",
+    "label": "Contact",
+    "url": "https://vetclaims.ai/contact/",
+    "ok": true,
+    "meta": {
+      "title": "Contact VetClaims.ai | Talk to a VA Claims Expert",
+      "metaDesc": "Questions about your VA disability claim? Call (737) 344-4399 or check if you qualify online. Honest guidance from veterans who understand.",
+      "h1": "Contact",
+      "h2s": [
+        "Ready to Get the Rating You Deserve?"
+      ],
+      "buttons": [
+        "Client Login",
+        "See if I Qualify",
+        "Client Login",
+        "See if I Qualify",
+        "Light Mode",
+        "See if I Qualify",
+        "(737) 344-4399"
+      ],
+      "inputs": [],
+      "scrollH": 1769
+    },
+    "cardPx": {
+      "w": 2880,
+      "h": 1800
+    },
+    "fullPx": {
+      "w": 2880,
+      "h": 3538
+    },
+    "finalUrl": "https://vetclaims.ai/contact/"
+  },
+  {
+    "n": "40",
+    "sec": "Tools",
+    "slug": "calculator",
+    "label": "VA Disability Calculator (app)",
+    "url": "https://calc.vetclaims.ai/easy",
+    "probe": "calc",
+    "ok": true,
+    "meta": {
+      "title": "Easy VA Disability Calculator | VetClaims.ai",
+      "metaDesc": "Quick and simple VA disability calculator. Select from common conditions, choose your ratings, and get an instant combined rating estimate.",
+      "h1": "VA Disability Calculator",
+      "h2s": [
+        "Step 1: Add Your Disabilities",
+        "Step 2: Add Your Dependents",
+        "Employability & Results",
+        "Current Disability Rating"
+      ],
+      "buttons": [
+        "Calculators",
+        "Tools",
+        "Resources",
+        "Learn Hub",
+        "Left Arm",
+        "Right Arm",
+        "Left Leg",
+        "Right Leg",
+        "10%",
+        "20%",
+        "30%",
+        "40%",
+        "50%",
+        "60%",
+        "70%",
+        "80%",
+        "90%",
+        "100%"
+      ],
+      "inputs": [],
+      "scrollH": 2254
+    },
+    "cardPx": {
+      "w": 2880,
+      "h": 1800
+    },
+    "fullPx": {
+      "w": 2880,
+      "h": 4508
+    },
+    "finalUrl": "https://calc.vetclaims.ai/easy/"
+  },
+  {
+    "n": "42",
+    "sec": "Tools",
+    "slug": "patriots-portal",
+    "label": "Patriots Portal",
+    "url": "https://vetclaims.ai/patriots-portal/",
+    "ok": true,
+    "meta": {
+      "title": "Patriots Portal - VetClaims.ai",
+      "metaDesc": "",
+      "h1": "Skip the Bullsh*t Get The Rating YOU DESERVE",
+      "h2s": [
+        "Ready to Get the Rating You Deserve?"
+      ],
+      "buttons": [
+        "Client Login",
+        "See if I Qualify",
+        "Client Login",
+        "See if I Qualify",
+        "Light Mode",
+        "See if I Qualify",
+        "(737) 344-4399"
+      ],
+      "inputs": [],
+      "scrollH": 3006
+    },
+    "cardPx": {
+      "w": 2880,
+      "h": 1800
+    },
+    "fullPx": {
+      "w": 2880,
+      "h": 6012
+    },
+    "finalUrl": "https://vetclaims.ai/patriots-portal/"
+  },
+  {
+    "n": "43",
+    "sec": "Tools",
+    "slug": "free-nexus-templates",
+    "label": "Free Nexus Templates",
+    "url": "https://vetclaims.ai/va-benefits/va-nexus-letter/free-nexus-templates/",
+    "ok": true,
+    "meta": {
+      "title": "Nexus Letter Examples: Strong VA Medical Opinion Guide",
+      "metaDesc": "See what strong VA medical opinions include, how letters connect conditions to service, & download nexus letter examples & templates for provider reference.",
+      "h1": "Nexus Letter Examples: What a Strong VA Medical Opinion Looks Like",
+      "h2s": [
+        "What are Nexus Letter Examples for VA Disability Claims?",
+        "What should be included in a strong nexus letter?",
+        "What Is An Example Of A Direct Service Connection Nexus Letter?",
+        "What Is An Example Of A Secondary Service Connection Nexus Letter?",
+        "What Makes a Nexus Letter Weak Or Easy for VA to Reject?",
+        "Who Should Write A Nexus Letter For A VA Claim?",
+        "Do Veterans Need A Nexus Letter For Every VA Disability Claim?",
+        "What Should Veterans Review Before Using Nexus Letter Templates?"
+      ],
+      "buttons": [
+        "Client Login",
+        "See if I Qualify",
+        "Client Login",
+        "See if I Qualify",
+        "Light Mode",
+        "1. Provider Credentials",
+        "2. Records Reviewed",
+        "3. Current Diagnosis",
+        "4. Service Connection Theory",
+        "5. Medical Opinion Statement",
+        "6. Medical Rationale",
+        "7. Signature & Date",
+        "See if I Qualify"
+      ],
+      "inputs": [],
+      "scrollH": 11330
+    },
+    "cardPx": {
+      "w": 2880,
+      "h": 1800
+    },
+    "fullPx": {
+      "w": 2880,
+      "h": 22660
+    },
+    "finalUrl": "https://vetclaims.ai/va-benefits/va-nexus-letter/free-nexus-templates/"
+  },
+  {
+    "n": "50",
+    "sec": "Blog",
+    "slug": "blog",
+    "label": "Blog — index",
+    "url": "https://vetclaims.ai/blog/",
+    "ok": true,
+    "meta": {
+      "title": "VA Disability Claims Blog | Tips & Guides | VetClaims.ai",
+      "metaDesc": "Expert articles on VA disability claims, rating increases, C&P exams, secondary conditions, and appeals. Written by veterans, for veterans.",
+      "h1": "Blog",
+      "h2s": [
+        "Ready to Get the Rating You Deserve?"
+      ],
+      "buttons": [
+        "Client Login",
+        "See if I Qualify",
+        "Client Login",
+        "See if I Qualify",
+        "Light Mode",
+        "See if I Qualify",
+        "(737) 344-4399"
+      ],
+      "inputs": [],
+      "scrollH": 2390
+    },
+    "cardPx": {
+      "w": 2880,
+      "h": 1800
+    },
+    "fullPx": {
+      "w": 2880,
+      "h": 4780
+    },
+    "finalUrl": "https://vetclaims.ai/blog/"
+  },
+  {
+    "n": "60",
+    "sec": "Funnel",
+    "slug": "optin-landing",
+    "label": "See if I Qualify — opt-in",
+    "url": "https://optin.vetclaims.ai/lead/",
+    "probe": "optin",
+    "ok": true,
+    "meta": {
+      "title": "The rating you deserve. Guaranteed.",
+      "metaDesc": "",
+      "h1": "Your Rating Increases... or We Pay You.",
+      "h2s": [
+        "Increase your rating",
+        "with a proven system.",
+        "It's looking good 😊"
+      ],
+      "buttons": [
+        "See If I Qualify",
+        "Continue →",
+        "Continue →",
+        "Yes, that's correct →",
+        "No, I'm not →",
+        "Continue →",
+        "Click here",
+        "Check for availability →",
+        "Yes, but only if we are a fit →",
+        "No, I don't want the rating I deserve"
+      ],
+      "inputs": [
+        {
+          "t": "INPUT",
+          "type": "checkbox",
+          "name": "",
+          "ph": "",
+          "aria": ""
+        },
+        {
+          "t": "INPUT",
+          "type": "text",
+          "name": "first_name",
+          "ph": "First name",
+          "aria": ""
+        },
+        {
+          "t": "INPUT",
+          "type": "text",
+          "name": "last_name",
+          "ph": "Last name",
+          "aria": ""
+        },
+        {
+          "t": "INPUT",
+          "type": "email",
+          "name": "email",
+          "ph": "you@example.com",
+          "aria": ""
+        },
+        {
+          "t": "INPUT",
+          "type": "tel",
+          "name": "phone",
+          "ph": "+1 (___) ___-____",
+          "aria": ""
+        }
+      ],
+      "scrollH": 1240
+    },
+    "cardPx": {
+      "w": 2880,
+      "h": 1800
+    },
+    "fullPx": {
+      "w": 2880,
+      "h": 2480
+    },
+    "finalUrl": "https://optin.vetclaims.ai/lead/"
+  },
+  {
+    "n": "70",
+    "sec": "Account",
+    "slug": "client-login",
+    "label": "Client Login",
+    "url": "https://vetclaims.app/login",
+    "ok": true,
+    "meta": {
+      "title": "VetClaims Portal",
+      "metaDesc": "Portal for VetClaims application",
+      "h1": "Welcome back to VetClaims!",
+      "h2s": [],
+      "buttons": [
+        "Continue",
+        "Troubleshoot login"
+      ],
+      "inputs": [
+        {
+          "t": "INPUT",
+          "type": "email",
+          "name": "",
+          "ph": "Enter your email",
+          "aria": ""
+        }
+      ],
+      "scrollH": 900
+    },
+    "cardPx": {
+      "w": 2880,
+      "h": 1800
+    },
+    "fullPx": {
+      "w": 2880,
+      "h": 1800
+    },
+    "finalUrl": "https://vetclaims.app/login"
+  }
+]
