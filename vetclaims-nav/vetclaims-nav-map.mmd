@@ -1,0 +1,63 @@
+---
+title: VetClaims.ai — Site / System Map (competitor teardown, 2026-06-24)
+---
+%% Cards (1440x900): https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/vetclaims-nav/cards/
+%% Full-page archives:  .../vetclaims-nav/full/   |  nodes use a 1.6 ratio (w:h) so screenshots are NOT stretched.
+flowchart TD
+    HOME@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/vetclaims-nav/cards/01-home.png", label: "🏠 HOME — flat-fee VA claim prep · 'VA rating you deserve?' · 4.87★ (207) · 43K+ vets · file-ready in 14 days", pos: "b", w: 600, h: 375 }
+
+    %% ---- top-nav dropdown connectors (no standalone landing page) ----
+    COMPMENU(["🏢 Company ▾"])
+    TOOLSMENU(["🛠️ Tools ▾  ⭐"])
+
+    %% ================= CONVERSION PATH (the money funnel) =================
+    OPTIN@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/vetclaims-nav/cards/60-optin-landing.png", label: "SEE IF I QUALIFY — opt-in funnel (optin.vetclaims.ai) · 'Your rating increases… or We Pay You' · SMS opt-in", pos: "b", w: 560, h: 350 }
+    PRICING@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/vetclaims-nav/cards/02-pricing.png", label: "PRICING — $1,250 flat 'Complete Care' · no % of backpay", pos: "b", w: 560, h: 350 }
+    LOGIN@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/vetclaims-nav/cards/70-client-login.png", label: "CLIENT LOGIN — vetclaims.app portal (existing clients)", pos: "b", w: 560, h: 350 }
+    SALES["📞 Free consultation / sales call<br/>+ email &amp; SMS nurture<br/><i>(gated — needs a real lead submit; not captured)</i>"]
+
+    %% ================= VA BENEFITS (hub + dropdown) =================
+    VAB@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/vetclaims-nav/cards/10-va-benefits-hub.png", label: "📚 VA BENEFITS — hub · 'A Complete Guide for Veterans'", pos: "b", w: 560, h: 350 }
+    RI@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/vetclaims-nav/cards/11-rating-increase.png", label: "Rating Increase — how & when to raise your rating", pos: "b", w: 520, h: 325 }
+    DP@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/vetclaims-nav/cards/12-disability-pay.png", label: "VA Disability Pay — compensation & payments explained", pos: "b", w: 520, h: 325 }
+    AP@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/vetclaims-nav/cards/13-appeals.png", label: "Appeals — Supplemental / HLR / Board after a denial", pos: "b", w: 520, h: 325 }
+    CP@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/vetclaims-nav/cards/14-cp-exams.png", label: "C&amp;P Exams — what to expect & how to prepare", pos: "b", w: 520, h: 325 }
+    PACT@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/vetclaims-nav/cards/15-pact-act.png", label: "PACT Act & Toxic Exposure — burn pits, Agent Orange, presumptives", pos: "b", w: 520, h: 325 }
+
+    %% ================= CONDITIONS =================
+    COND@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/vetclaims-nav/cards/20-conditions.png", label: "🩺 CONDITIONS — VA ratings by condition (30+ condition pages)", pos: "b", w: 560, h: 350 }
+
+    %% ================= COMPANY =================
+    ABOUT@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/vetclaims-nav/cards/30-about.png", label: "About — veteran-led, AI-powered claim prep", pos: "b", w: 520, h: 325 }
+    FOUNDER@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/vetclaims-nav/cards/31-founder-story.png", label: "Founder Story — Lukas Simianer, Purple Heart veteran", pos: "b", w: 520, h: 325 }
+    CONTACT@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/vetclaims-nav/cards/32-contact.png", label: "Contact — (737) 344-4399", pos: "b", w: 520, h: 325 }
+
+    %% ================= TOOLS (priority) =================
+    CALC@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/vetclaims-nav/cards/40-calculator.png", label: "VA Disability Calculator (calc.vetclaims.ai) — pick body part + rating %", pos: "b", w: 560, h: 350 }
+    CALCR@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/vetclaims-nav/cards/41-calculator-result.png", label: "↳ Calculator IN ACTION — 50%+30%+20% → combined 70% · $1,759.19/mo", pos: "b", w: 560, h: 350 }
+    PP@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/vetclaims-nav/cards/42-patriots-portal.png", label: "Patriots Portal — 'Skip the BS, get the rating you deserve'", pos: "b", w: 560, h: 350 }
+    FNT@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/vetclaims-nav/cards/43-free-nexus-templates.png", label: "Free Nexus Templates — nexus letter examples & downloads", pos: "b", w: 560, h: 350 }
+
+    %% ================= BLOG =================
+    BLOG@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/vetclaims-nav/cards/50-blog.png", label: "✍️ BLOG — VA claims articles (21 posts)", pos: "b", w: 560, h: 350 }
+
+    %% ================= NAV / FLOW EDGES =================
+    HOME -->|See if I Qualify ↗| OPTIN
+    HOME -->|Pricing| PRICING
+    HOME -->|Client Login| LOGIN
+    HOME -->|VA Benefits ▾| VAB
+    HOME -->|Conditions| COND
+    HOME -->|Company ▾| COMPMENU
+    HOME -->|Tools ▾| TOOLSMENU
+    HOME -->|Blog| BLOG
+
+    VAB --> RI & DP & AP & CP & PACT
+    COMPMENU --> ABOUT & FOUNDER & CONTACT
+    TOOLSMENU --> CALC & PP & FNT
+    CALC -->|add ratings| CALCR
+    OPTIN -->|quiz → contact form → submit = real lead| SALES
+
+    classDef menu fill:#1e2a44,stroke:#4a90d9,color:#fff,font-weight:bold;
+    classDef gated fill:#7a2222,stroke:#c0392b,color:#fff,stroke-dasharray:5 5;
+    class COMPMENU,TOOLSMENU menu;
+    class SALES gated;
