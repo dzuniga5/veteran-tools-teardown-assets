@@ -16,6 +16,12 @@ flowchart TD
     LOGIN@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/vetclaims-nav/cards/70-client-login.png", label: "CLIENT LOGIN — A separate portal app (vetclaims.app) for existing paying clients. Simple 'Welcome back to VetClaims!' email login with Continue + Troubleshoot. The portal interior is gated and was not captured (no client account).", pos: "b", w: 560, h: 350 }
     SALES["📞 Free consultation / sales call<br/>+ email &amp; SMS nurture sequence<br/><i>(gated — only fires after a real lead is submitted via the quiz contact form; not captured to avoid triggering live sales calls/texts)</i>"]
 
+    %% ---- See-if-Qualify funnel = their onboarding (captured step by step) ----
+    FQ1@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/vetclaims-nav/funnel/cards/01-do-you-currently-have-a-va-rating.png", label: "Funnel Q1 — 'Do you currently have a VA rating?' (Yes / No). Phase 1 'Questionnaire'; the first qualifier that routes the veteran.", pos: "b", w: 520, h: 325 }
+    FQ2@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/vetclaims-nav/funnel/cards/02-are-you-currently-rated-100.png", label: "Funnel Q2 — 'Are you currently rated 100%?' (Yes / No). Screens out veterans already at the cap (no upside to sell them).", pos: "b", w: 520, h: 325 }
+    FQ3@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/vetclaims-nav/funnel/cards/03-when-do-you-want-to-start.png", label: "Funnel Q3 — 'When do you want to start?' (Immediately / Tomorrow / Next Week) plus an 'I understand this is for a free consultation' acknowledgement. Sets urgency + frames the call.", pos: "b", w: 520, h: 325 }
+    FCONTACT@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/vetclaims-nav/funnel/cards/04-contact-form-filled.png", label: "Phase 2 'Check Spots' — contact form (first/last name, email, phone + SMS opt-in). 'Check for availability' submits a real sales lead. Phase 3 'Free Value' sits behind this submit (gated, not captured).", pos: "b", w: 520, h: 325 }
+
     %% ================= VA BENEFITS (hub + dropdown) =================
     VAB@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/vetclaims-nav/cards/10-va-benefits-hub.png", label: "📚 VA BENEFITS — The educational hub, 'A Complete Guide for Veterans'. Explains how the VA system works and why ratings feel inconsistent, then branches into Rating Increase, Disability Pay, filing/winning claims, C&amp;P Exams, Appeals and the PACT Act. Sits at the top of a large SEO content tree that feeds the funnel.", pos: "b", w: 560, h: 350 }
     RI@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/vetclaims-nav/cards/11-rating-increase.png", label: "Rating Increase — How and when to push for a higher rating. Covers signs a condition warrants an increase, the evidence the VA weighs, the step-by-step filing process, and the reduction risk that can backfire. Closes with FAQs and a 'Book a strategy call' CTA.", pos: "b", w: 520, h: 325 }
@@ -55,7 +61,11 @@ flowchart TD
     COMPMENU --> ABOUT & FOUNDER & CONTACT
     TOOLSMENU --> CALC & PP & FNT
     CALC -->|add ratings| CALCR
-    OPTIN -->|quiz → contact form → submit = real lead| SALES
+    OPTIN -->|See If I Qualify| FQ1
+    FQ1 -->|Yes| FQ2
+    FQ2 -->|No| FQ3
+    FQ3 -->|Immediately + ack| FCONTACT
+    FCONTACT -->|Check for availability = submit| SALES
 
     classDef menu fill:#1e2a44,stroke:#4a90d9,color:#fff,font-weight:bold;
     classDef gated fill:#7a2222,stroke:#c0392b,color:#fff,stroke-dasharray:5 5;
