@@ -1,0 +1,80 @@
+---
+title: VeteranAI.co — Site / System Map (competitor teardown, 2026-06-25)
+---
+%% New cards (1440x900):  https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/veteranai-nav/cards/
+%% Older assets:          https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/v2/
+%% Image nodes use a 1.6 ratio (w:h) so screenshots are NOT stretched.
+flowchart TD
+
+    %% ===================== SIGN-UP / ACTIVATION =====================
+    LAND@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/v2/vai-01-landing.png", label: "🏠 LANDING (veteranai.co) — 'Your disability claim, simplified.' Free self-serve AI SaaS: AI claim builder, smart document management, '50,000+ veterans served'. CTAs: 'Get Started Free' and 'Log in'.", pos: "b", w: 600, h: 375 }
+    OTP@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/veteranai-nav/cards/signup-otp.png", label: "SIGN UP — passwordless. Enter email (or Google / Discord) → 6-digit OTP code emailed → 'Create Account & Continue'. Two-step wizard: 1) Account, 2) Plan.", pos: "b", w: 560, h: 350 }
+    PLAN@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/veteranai-nav/cards/plan-chooser.png", label: "PLAN CHOOSER — Starter (Free): Six AI chat, Nexus + Personal-Statement generation, decision-letter analysis, limited AI. Pro: free 17-day trial then $25/mo (25+ more AI usage). Max 3x: $49/mo (3× AI budget). C-File analysis needs the annual plan.", pos: "b", w: 560, h: 350 }
+
+    LAND -->|Get Started Free| OTP
+    OTP -->|verify code| PLAN
+
+    %% ===================== FIRST-RUN ONBOARDING =====================
+    TOUR@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/veteranai-nav/cards/tour-01-welcome.png", label: "FIRST-RUN PRODUCT TOUR — a 7-step 'Welcome to VeteranAI' walkthrough overlay (Manage Disabilities, Chat with Six, Upload Documents, Join Discord). Skippable. Sets expectations before the checklist.", pos: "b", w: 560, h: 350 }
+    DASH0@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/veteranai-nav/cards/gs-00-dashboard.png", label: "DASHBOARD (fresh account) — left rail shows a 'Getting Started' checklist (0/6) and a rotating 'Step X of 6' banner. Cards: Manage Disabilities, Chat with Six, Upload Documents, Join Discord + 'Add Your First Disability'.", pos: "b", w: 560, h: 350 }
+
+    PLAN -->|Starter / Free| TOUR
+    TOUR -->|skip / finish| DASH0
+
+    %% ===================== GETTING STARTED — 6 NUMBERED STEPS =====================
+    subgraph GS["✅ Getting Started checklist (0 / 6)"]
+        direction TB
+        GS1@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/veteranai-nav/cards/gs-1-profile.png", label: "Step 1 — Complete Your Profile. Modal: first/last name, phone, date of birth. 'Your name & contact appear on every document we generate — without this, nexus letters & statements ship with placeholders.'", pos: "b", w: 500, h: 313 }
+        GS2@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/veteranai-nav/cards/gs-2-military.png", label: "Step 2 — Add Military Service. Modal: 'Add Branch of Service' (Army, Navy, Air Force, Marines, Space Force, Coast Guard) + service dates. Establishes service connection for claims.", pos: "b", w: 500, h: 313 }
+        GS3@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/veteranai-nav/cards/gs-3-personal-statement.png", label: "Step 3 — Create Your Personal Statement. 'The only place the VA hears how the condition affects your daily life — generated from a short interview, formatted how raters expect.' Routes to 'Add a Condition'.", pos: "b", w: 500, h: 313 }
+        GS4@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/veteranai-nav/cards/gs-4-nexus-locked.png", label: "Steps 4–6 — Create a Nexus Letter · Upload Your C-File · Chat with Six. These stay LOCKED (greyed) until a disability/condition is added — the onboarding is gated to force claim creation first.", pos: "b", w: 500, h: 313 }
+        GS1 --> GS2 --> GS3 --> GS4
+    end
+    DASH0 --> GS1
+
+    %% ===================== CORE APP (sidebar sections) =====================
+    subgraph APP["🗂️ Core app (sidebar)"]
+        direction TB
+        DASH@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/veteranai-nav/cards/app-dashboard.png", label: "Dashboard — 'Gather More Evidence'. Live VA Rating + Rating Breakdown widgets and per-claim evidence status (Statement / Diagnosis / Buddy Letter needed).", pos: "b", w: 500, h: 313 }
+        DIS@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/veteranai-nav/cards/app-disability-detail.png", label: "Disabilities — per-condition workspace: Build Your Case → Generate Documents → Review & Details, with Personal / Buddy / Nexus letters.", pos: "b", w: 500, h: 313 }
+        GEN@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/veteranai-nav/cards/app-generate-documents.png", label: "Generate Documents — AI-written Personal Statements, Buddy Letters and Nexus Letters per claim (the core paid value; generation gated behind Pro).", pos: "b", w: 500, h: 313 }
+        SYM@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/veteranai-nav/cards/app-symptom-logger.png", label: "Symptom Logger — track symptoms/severity over time to feed evidence into statements and ratings.", pos: "b", w: 500, h: 313 }
+        CFILE@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/veteranai-nav/cards/app-cfile.png", label: "C-File & STR Analysis — upload your VA C-File / service treatment records for AI analysis (deeper analysis gated to paid/annual).", pos: "b", w: 500, h: 313 }
+        DOCS@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/veteranai-nav/cards/app-documents.png", label: "Documents — 'Six's Documents': the evidence vault for everything uploaded and generated.", pos: "b", w: 500, h: 313 }
+        TUT@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/veteranai-nav/cards/app-tutorials.png", label: "Tutorials & User Guide — in-app education/help content.", pos: "b", w: 500, h: 313 }
+    end
+    DASH0 --> DASH
+
+    %% ===================== SIX AI + CLAIM BUILDER =====================
+    SIX@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/v2/six-03-answer-more.png", label: "💬 'Six' AI assistant — chat that answers VA-claim questions in context (named 'Six' / 'got your six'). The conversational front-end to the whole product.", pos: "b", w: 560, h: 350 }
+
+    subgraph BUILD["🛠️ Claim Builder (step by step)"]
+        direction TB
+        B1@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/v2/build-01-add-condition.png", label: "Add Condition — title, diagnosis, current VA status.", pos: "b", w: 500, h: 313 }
+        B2@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/v2/build-02-classify.png", label: "Classify — Standard / Exposure / Traumatic condition type.", pos: "b", w: 500, h: 313 }
+        B3@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/v2/build-03-path-choice.png", label: "Path — 'Build My Case' vs add more conditions.", pos: "b", w: 500, h: 313 }
+        B4@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/v2/build-04b-add-symptom-modal.png", label: "Build Case — add symptoms (severity, frequency, onset) → AI generates Nexus / Personal Statement at the Review step (Pro paywall).", pos: "b", w: 500, h: 313 }
+        B1 --> B2 --> B3 --> B4
+    end
+    DIS --> B1
+    GS4 -.unlocks after condition.-> B1
+
+    %% ===================== GROWTH / MONETIZATION =====================
+    OPS@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/veteranai-nav/cards/app-operator-dashboard.png", label: "🎖️ Referrals = 'Operator Dashboard' — gamified, military-themed referral program (ranks, clearance levels, badges). Referrals only count when your recruit UPGRADES TO A PAID PLAN → viral growth wired straight to monetization.", pos: "b", w: 560, h: 350 }
+    DASH --> OPS
+
+    %% ===================== EMAIL DRIP (day-marked) =====================
+    subgraph EMAILS["✉️ Email nurture (actual inbox)"]
+        direction TB
+        E0@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/v2/email-0-otp.png", label: "Day 0, 11:20am — OTP login code (transactional, no-reply@).", pos: "b", w: 480, h: 300 }
+        E1@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/v2/email-1-reengagement.png", label: "Day 0, +23min — 'Ready to Get Back to Your Claim?' (team@, re-engagement).", pos: "b", w: 480, h: 300 }
+        E2@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/v2/email-2-tools.png", label: "Day 1 — 'Get the Most Out of VeteranAI' (dennis@, feature showcase).", pos: "b", w: 480, h: 300 }
+        E3@{ img: "https://raw.githubusercontent.com/dzuniga5/veteran-tools-teardown-assets/main/v2/email-3-discord.png", label: "Day 3 — 'Join our Veteran Community on Discord' (dennis@). Last email received.", pos: "b", w: 480, h: 300 }
+        E0 --> E1 --> E2 --> E3
+    end
+    OTP -.triggers nurture.-> E0
+
+    classDef locked fill:#3a3a3a,stroke:#888,color:#fff,stroke-dasharray:4 4;
+    classDef pro fill:#1e3a5f,stroke:#4a90d9,color:#fff;
+    class GS4 locked;
+    class PLAN,GEN pro;
