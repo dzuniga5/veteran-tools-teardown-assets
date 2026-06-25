@@ -1,0 +1,53 @@
+[
+  {
+    "n": 0,
+    "slug": "landing"
+  },
+  {
+    "n": 1,
+    "slug": "do-you-currently-have-a-va-rating",
+    "question": "Do you currently have a VA rating?",
+    "options": [
+      "YES NO",
+      "YES",
+      "NO"
+    ],
+    "buttons": [
+      "Continue →"
+    ]
+  },
+  {
+    "n": 2,
+    "slug": "are-you-currently-rated-100",
+    "question": "Are you currently rated 100%?",
+    "options": [
+      "YES NO",
+      "YES",
+      "NO"
+    ],
+    "buttons": [
+      "Continue →"
+    ]
+  },
+  {
+    "n": 3,
+    "slug": "when-do-you-want-to-start",
+    "question": "When do you want to start?",
+    "options": [
+      "Immediately Tomorrow Next Week",
+      "Immediately",
+      "Tomorrow",
+      "Next Week",
+      "I understand this is for a free consultation *"
+    ],
+    "buttons": [
+      "Continue →"
+    ]
+  },
+  {
+    "n": 4,
+    "slug": "contact-form",
+    "question": "It's looking good 😊",
+    "note": "filled name+email; STOPPED before submit"
+  }
+]
